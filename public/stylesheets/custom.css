@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #cff;
+  background: #6495ed;
 }
 
 header {
@@ -234,6 +234,27 @@ div.user_info span.user_name {
 
 div.user_info span.microposts {
   font-size: 80%;
+}
+
+div.user_bio img {
+  float: left;
+  width: 120px;
+  background: #6495ed;
+  padding: 4px;
+  margin: 10px;
+}
+
+div.home img {
+   margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 480px;
+  color: #fff;
+  background: #6495ed;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 4px;
 }
 
 form.new_micropost {
